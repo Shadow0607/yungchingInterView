@@ -39,33 +39,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper": {
+            "Dapper": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[2.0.143, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[6.0.20, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[5.1.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
             },
-            "System.Text.Json": {
+            "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[4.8.5, )"
             }
           },
           "imports": [

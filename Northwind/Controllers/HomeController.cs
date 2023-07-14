@@ -16,8 +16,7 @@ namespace Northwind.Controllers
     [Route("[controller]")]
     public class HomeController : ControllerBase
     {
-        private readonly IConfiguration _config;
-
+        private IConfiguration _config;
         public HomeController(IConfiguration config)
         {
             _config = config;
@@ -43,7 +42,7 @@ namespace Northwind.Controllers
         public async Task<ActionResult<List<Home>>> CreateShippers(Home Shippers)
         {
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            await connection.ExecuteAsync("insert into  Shippers(CompanyName, Phone) values (@CompanyName, @Phone)", Shippers);
+            await connection.ExecuteAsync("insert into Shippers(CompanyName, Phone) values (@CompanyName, @Phone)", Shippers);
             return Ok("Insert Database OK");
         }
 

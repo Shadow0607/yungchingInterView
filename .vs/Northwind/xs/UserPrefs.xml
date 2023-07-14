@@ -1,27 +1,37 @@
-﻿<Properties StartupConfiguration="{59D676B1-0A51-4D67-BC47-EE25D36C42A7}|Default" GitUserInfo="UsingGIT">
-  <MultiItemStartupConfigurations />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{621705E4-9F7C-4B15-A6E5-FCC0251E006D}|Default">
   <MonoDevelop.Ide.ItemProperties.Northwind PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Northwind/Controllers/HomeController.cs">
     <Files>
-      <File FileName="Northwind/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="Northwind/Controllers/HomeController.cs" Line="72" Column="1" />
+      <File FileName="Northwind/appsettings.json" />
+      <File FileName="Northwind/Home.cs" />
+      <File FileName="Northwind/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Northwind">
             <Node name="Northwind" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="WeatherForecastController.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ntest FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
